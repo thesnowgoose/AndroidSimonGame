@@ -13,4 +13,7 @@
     <color name="greenBright">#33cc33</color>
     <color name="yellowBright">#ffff00</color>
     <color name="blueBright">#0099ff</color>
+
+    <color name="grey">#666666</color>
+
 </resources>
