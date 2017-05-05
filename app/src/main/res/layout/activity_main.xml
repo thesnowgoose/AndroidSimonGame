@@ -14,39 +14,44 @@
             android:layout_height="1dp"
             android:layout_centerInParent="true"/>
         <Button
+            android:id="@+id/btn_red"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentTop="true"
             android:layout_alignParentStart="true"
             android:layout_alignEnd="@id/center"
             android:layout_alignBottom="@id/center"
-            android:background="@color/red"/>
+            android:background="@drawable/red_transition"/>
         <Button
+            android:id="@+id/btn_green"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentTop="true"
             android:layout_alignParentEnd="true"
             android:layout_alignBottom="@id/center"
             android:layout_alignStart="@id/center"
-            android:background="@color/green"/>
+            android:background="@drawable/green_transition"/>
         <Button
+            android:id="@+id/btn_yellow"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentBottom="true"
             android:layout_alignParentStart="true"
             android:layout_alignEnd="@id/center"
             android:layout_alignTop="@id/center"
-            android:background="@color/yellow"/>
+            android:background="@drawable/yellow_transition"/>
         <Button
+            android:id="@+id/btn_blue"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentBottom="true"
             android:layout_alignParentEnd="true"
             android:layout_alignStart="@id/center"
             android:layout_alignTop="@id/center"
-            android:background="@color/blueBright"/>
+            android:background="@drawable/blue_transition"/>
     </RelativeLayout>
     <Button
+        android:id="@+id/btn_start"
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:text="@string/start"
