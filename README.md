@@ -12,7 +12,8 @@ A game to teach university students about Android
     - gradle
 
 3. Activities
-    - Life Cycle (See picture 1)
+    - Life Cycle
+    ![alt text](https://i.stack.imgur.com/kChdb.png)
 
 4. Layout
     - Crear relative layout
@@ -37,4 +38,6 @@ A game to teach university students about Android
     - Create eraseGameData() with variables
     - Add game logic to onClick()
 
+6. Add icon
+    - ![alt text](http://www.virtual-pet-game.com/images/Games/Simon/Simon.svg)
 
